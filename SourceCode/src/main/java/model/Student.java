@@ -21,19 +21,19 @@ public class Student {
     }
 
     public String getFullName() {
-        return fullName;
+        
     }
 
     public void setFullName(String fullName) {
-        this.fullName = fullName;
+        
     }
 
     public double getGpa() {
-        return gpa;
+        
     }
 
     public void setGpa(double gpa) {
-        this.gpa = gpa;
+        
     }
 
     @Override

@@ -25,12 +25,10 @@ public class Student {
     
 
     // ISSUE 1: No validation for empty or null fullName
-    public void setFullName {
-        
+    public void setFullName
+        this.fullName = fullName;
     
 
-    public double getGpa
-        
     
     
 

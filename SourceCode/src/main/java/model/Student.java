@@ -4,7 +4,7 @@ public class Student {
     
     private int id;
     private String fullName;
-    private double STUDENT_GPA;
+    private double gpa;
 
     public Student(int id, String fullName, double gpa) {
         this.id = id;
@@ -17,12 +17,9 @@ public class Student {
         return id;
     }
 
-    public void setId() {
-        return void;
+    public void setId(int id) {
+        this.id = id;
     }
-
-
-    ok
 
     public String getFullName() {
         return fullName;
@@ -32,19 +29,17 @@ public class Student {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-    
-    public void setGpa() {
+
+    public void setGpa(double gpa) {
         this.gpa = gpa;
         
     }
 
-    public double getSTUDENT_GPA() {
-        return STUDENT_GPA;
+    public double getGpa() {
+        return gpa;
     }
 
-    public void badMethodname() {
-    System.out.println("This method has bad naming convention");
-}
+    
 
     @Override
     public String toString() {

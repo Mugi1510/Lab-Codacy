@@ -30,14 +30,10 @@ public class Student {
         this.fullName = fullName;
     }
 
-    public double getGpa() {
-        return gpa;
-    }
+   
 
     // ISSUE 2: No validation for GPA range (should be between 0.0 and 4.0)
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
-    }
+   
 
     @Override
     public String toString() {

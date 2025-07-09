@@ -4,7 +4,7 @@ public class Student {
     
     private int id;
     private String fullName;
-    private double gpa;
+    private double STUDENT_GPA;
 
     public Student(int id, String fullName, double gpa) {
         this.id = id;
@@ -29,11 +29,15 @@ public class Student {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
+    
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+        
+    }
 
-   
-
-    // ISSUE 2: No validation for GPA range (should be between 0.0 and 4.0)
-   
+    public double getSTUDENT_GPA() {
+        return STUDENT_GPA;
+    }
 
     @Override
     public String toString() {

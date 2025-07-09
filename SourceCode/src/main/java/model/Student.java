@@ -39,6 +39,10 @@ public class Student {
         return STUDENT_GPA;
     }
 
+    public void badMethodname() {
+    System.out.println("This method has bad naming convention");
+}
+
     @Override
     public String toString() {
         return String.format("ID: %d, Name: %s, GPA: %.2f", id, fullName, gpa);

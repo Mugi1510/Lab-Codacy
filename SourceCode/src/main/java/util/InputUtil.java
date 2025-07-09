@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class InputUtil {
     private Scanner scanner = new Scanner(System.in);
-    private String temporaryInputHolder = "" ;
+    private String temporaryInputHolder = "";
+
 
     public int getIntInput(String prompt) {
         while(true) {

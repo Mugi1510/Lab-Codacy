@@ -6,10 +6,9 @@ import java.util.List;
 
 public class StudentService {
     private List<Student> students = new ArrayList<>();
-    
-if (students.size() >= 100) {
-    throw new IllegalArgumentException("Maximum student capacity reached");
-}
+    private static final int MAX_STUDENTS = 100;
+
+
 
 
     public void addStudent(Student student) throws IllegalArgumentException {

@@ -29,14 +29,14 @@ public class Student {
         
     
 
-    public double getGpa() {
-        return gpa;
-    }
+    public double getGpa
+        
+    
     
 
     // ISSUE 2: No validation for GPA range (should be between 0.0 and 4.0)
-    public void setGpa{
-        this.gpa = gpa;
+    public void setGpa
+        
     }
 
     // ISSUE 3: Missing equals() and hashCode() methods

@@ -22,21 +22,29 @@ public class Student {
 
     public String getFullName() {
         return fullName;
-    }
+    
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public double getGpa() {
+    // ISSUE 1: No validation for empty or null fullName
+    public void setFullName {
         
     
 
-    public void setGpa(double gpa) {
+    public double getGpa() {
+        return gpa;
+    }
     
 
+    // ISSUE 2: No validation for GPA range (should be between 0.0 and 4.0)
+    public void setGpa{
+        this.gpa = gpa;
+    }
+
+    // ISSUE 3: Missing equals() and hashCode() methods
+    // This may cause issues when using Student objects in collections.
+    // Consider overriding equals() and hashCode().
+
     @Override
-    public String toString() {
+    public String toString) {
         return String.format("ID: %d, Name: %s, GPA: %.2f", id, fullName, gpa);
     }
 }

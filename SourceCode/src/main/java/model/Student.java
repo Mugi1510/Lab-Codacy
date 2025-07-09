@@ -17,10 +17,12 @@ public class Student {
         return id;
     }
 
-   
+    public void setId() {
+        return void;
+    }
 
 
-    
+    ok
 
     public String getFullName() {
         return fullName;
